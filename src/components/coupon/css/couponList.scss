@@ -1,0 +1,120 @@
+/*****列表优惠券*****/
+.coupon-recommend {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  background-color: #f4f4f4;
+}
+.list-item {
+  background: url(http://tao.shoppw.com/img/ico/icon4.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin: 10px 10px;
+}
+.list-item-left {
+  width: 72%;
+  padding: 10px 5px;
+  float: left;
+}
+.list-item-left image.list-item-img {
+  width: 100px;
+  height:100px;
+  max-width: 100%;
+  vertical-align: top;
+  display: block;
+  float: left;
+  margin-left: 5px;
+  /*box-shadow: 2px 0px 5px #888888;*/
+}
+.list-item-left .list-item-info {
+  float: left;
+  width: 55%;
+  padding-left: 5px;
+}
+.list-item-left .list-item-info .list-item-name {
+  font-size: 0.8rem;
+  height: 2.3rem;
+}
+.list-item-left .list-item-info .list-item-name {
+  font-size: 12px;
+  height: 32px;
+  overflow: hidden;
+  color: #4a4a4a;
+  margin: 2px 2px;
+}
+.list-item-left .list-item-info .list-item-name image.tmall-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: sub;
+}
+.list-item-left .list-item-info .sell-price {
+  font-size: 0.8rem;
+}
+.list-item-left .list-item-info .sell-price {
+  font-size: 0.9rem;
+  margin-top: 3px;
+}
+.list-item-left .list-item-info .sell-price .item-market-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 1rem;
+  display: block;
+}
+.sell-price .item-discount-price {
+  color: #F06000;
+  margin-left: 5px;
+}
+.item-discount-price-i {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+.list-item-left .list-item-info .sell-num .mail-icon {
+  background: #8bc34a;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0px 3px;
+}
+.sell-num .item-sell-num {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  color: #4a4a4a;
+}
+
+
+.list-item-right {
+  width: 24%;
+  float: left;
+}
+.list-item-right .right-price {
+  margin-top: 0rem;
+  margin-bottom: 5px;
+}
+.list-item-right .right-price {
+  text-align: center;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.list-item-right .right-price .right-price-icon {
+  font-size: 0.8rem;
+}
+.list-item-right .right-price .right-price-num {
+  font-size: 1.8rem;
+}
+.list-item-right .right-price .quan-text {
+  display: block;
+  font-size: 0.8rem;
+  margin-top: -5px;
+}
+.quan-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.quan-text-icon {
+  font-size: 0.9rem;
+}
